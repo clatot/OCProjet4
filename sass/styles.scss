@@ -59,19 +59,17 @@ a {
     padding-bottom: 14px;
 }
 
-.header__search {
+.header__location {
     display: flex;
     justify-content: center;
+    align-items: baseline;
+    gap: 10px;
     width: 100%;
     background-color: #EAEAEA;
-}
-
-.header__search--input {
-    border: 0px;
-    width: 109px;
+    color: #353535;
+    font-weight: 500;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: #EAEAEA;
 }
 
 // Booking
