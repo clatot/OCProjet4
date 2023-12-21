@@ -1,3 +1,5 @@
+// Main
+
 * {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -21,48 +23,29 @@ a {
     color: inherit;
 }
 
+// Title (Sections)
+
 .title {
     font-size: 24px;
 }
 
+//Logo
+
 .logo {
     font-family: 'Shrikhand', serif;
-    
-    .logo--header {
+}
+
+.logo--header {
     font-size: 30px;
     color: #101010;
-    }
-    .logo--footer {
-        font-size: 18px;
-        color: #FFFFFF;
-    }
 }
 
-.button {
-    color: white;
-    font-size: 16px;
-    padding: 13px 19px;
-    border-radius: 25px;
-    background: linear-gradient(to top, #9356DC, #FF79DA);
+.logo--footer {
+    font-size: 18px;
+    color: #FFFFFF;
 }
 
-.restaurant-card {
-    margin-top: 15px;
-    background-color: #FFFFFF;
-    border-radius: 15px;    
-}
-
-.restaurant-card--img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-.restaurant-card--text {
-    padding: 15px;
-}
+// Header 
 
 .header-section {
     display: flex;
@@ -70,7 +53,7 @@ a {
     flex-direction: column;
 }
 
-.header__logo {
+.header__title {
     background-color: white;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -91,6 +74,8 @@ a {
     background-color: #EAEAEA;
 }
 
+// Booking
+
 .booking-section {
     padding: 50px 20px;
     background-color: #F6F6F6;
@@ -103,6 +88,18 @@ a {
 .booking-section__text {
     text-align: center;
 }
+
+//Button (Booking)
+
+.button {
+    color: white;
+    font-size: 16px;
+    padding: 13px 19px;
+    border-radius: 25px;
+    background: linear-gradient(to top, #9356DC, #FF79DA);
+}
+
+// Fonction
 
 .fonction-section {
     padding: 50px 20px;
@@ -118,10 +115,34 @@ a {
     text-align: center;
 }
 
+// Restaurant 
+
 .restaurant-section {
     padding: 50px 20px;
     background-color: #F6F6F6;
 }
+
+// Card (Restaurant)
+
+.restaurant-card {
+    margin-top: 15px;
+    background-color: #FFFFFF;
+    border-radius: 15px;    
+}
+
+.restaurant-card--img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.restaurant-card--text {
+    padding: 15px;
+}
+
+// Footer
 
 .footer-section {
     padding: 20px;
