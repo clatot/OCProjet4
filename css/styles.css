@@ -140,4 +140,22 @@ a {
   padding: 20px;
   background-color: #353535;
   color: #FFFFFF;
+}
+
+.footer-section__logo {
+  padding-bottom: 10px;
+}
+
+.footer-section__a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  padding-top: 5px;
+}
+
+.footer-section__a--icon {
+  height: 13px;
+  width: 12px;
+  font-size: 12px;
 }/*# sourceMappingURL=styles.css.map */
