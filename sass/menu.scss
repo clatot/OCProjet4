@@ -45,6 +45,25 @@ a {
     color: #FFFFFF;
 }
 
+// Header 
+
+.header-section {
+    background-color: white;
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__return {
+    position: absolute;
+    left: 20px;
+}
+
+.menu-section {
+    background-color: #F6F6F6;
+}
+
 // Footer
 
 .footer-section {
