@@ -49,7 +49,7 @@ a {
 
 .header-section {
     background-color: white;
-    padding: 14px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,8 +60,96 @@ a {
     left: 20px;
 }
 
+// Image
+
+.menu-image {
+    margin-bottom: -60px;
+    z-index: -10;
+    position: relative;
+}
+
+.menu-image--img {
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+}
+
+// Menu 
+
 .menu-section {
+    padding: 25px 15px 40px 15px;
     background-color: #F6F6F6;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.menu-title {
+    display: flex;
+    align-items: center; 
+    gap: 30px;
+}
+
+.menu-title--h2 {
+    font-family: 'Shrikhand', serif;
+    font-size: 28px;
+}
+
+.menu-title--i {
+    font-size: 28px;
+}
+
+.menu__section {
+    padding-top: 40px;
+}
+
+.menu__section--line {
+    border: #99E2D0 2px solid;
+    width: 40px;
+}
+
+.menu-title--h3 {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+
+
+.menu-card {
+    padding: 12px 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+}
+
+.menu-card-title {
+    font-size: 18px;
+    padding-bottom: 3px;
+}
+
+.menu-card-text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.menu-card-price {
+    font-weight: bold;
+}
+
+//Button (Menu)
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.button {
+    color: white;
+    font-size: 16px;
+    padding: 15px 50px;
+    border-radius: 25px;
+    background: linear-gradient(to top, #9356DC, #FF79DA);
 }
 
 // Footer
