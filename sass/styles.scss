@@ -104,9 +104,10 @@ a {
     background-color: #FFFFFF;
 }
 
-.fonction-section--a {
+.fonction-section--article {
     padding: 25px 30px;
     margin-left: 10px;
+    margin-top: 20px;
     background-color: #F6F6F6;
     border-radius: 20px;
     text-align: center;
@@ -114,13 +115,19 @@ a {
     gap: 20px;
 }
 
-.fonction-section--li {
-    padding-top: 20px;
+.fonction-section--number {
+    margin-left: -40px;
+    background-color: #9356DC;
+    color: #FFFFFF;
+    height: 24px;
+    width: 24px;
+    border-radius: 45px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.fonction-section--li::marker {
-    background-color: #9356DC;
-}
 
 // Restaurant 
 
