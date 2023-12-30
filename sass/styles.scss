@@ -164,6 +164,10 @@ a {
     text-align: center;
 }
 
+.booking-section__spacing {
+     padding-bottom: 15px;
+}
+
 //Button (Booking)
 
 .button {
@@ -177,7 +181,7 @@ a {
 // Fonction
 
 .fonction-section {
-    padding: 50px 20px;
+    padding: 50px 20px 60px 20px;
     background-color: #FFFFFF;
 }
 
@@ -207,6 +211,10 @@ a {
 
 .fonction-section__icon--purple {
     color: #9356DC;
+}
+
+.fonction-section__icon--gray {
+    color: #7E7E7E;
 }
 
 // Restaurant 
@@ -257,6 +265,8 @@ a {
 .restaurant-card--icon {
     font-size: 21px;
     padding: 10px;
+    opacity: 1;
+    color: linear-gradient(to top, #9356DC, #FF79DA);
 }
 
 .restaurant-card--text {
