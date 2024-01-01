@@ -150,6 +150,7 @@ a {
     width: 0px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    opacity: 0;
 }
 
 .menu-card:hover > .menu-card-check {
@@ -161,6 +162,8 @@ a {
     width: 59px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    opacity: 1;
+    transition: width linear 300ms;
 }
 
 .menu-card-check--i {
@@ -174,7 +177,6 @@ a {
     justify-content: center;
     align-items: center;
     color: #99E2D0;
-    opacity: 1;
 }
 
 .menu-card:hover > .menu-card-check--i {
@@ -188,7 +190,7 @@ a {
     justify-content: center;
     align-items: center;
     color: #99E2D0;
-    opacity: 1;
+    transition: width linear 300ms;
 }
 
 //Button (Menu)
