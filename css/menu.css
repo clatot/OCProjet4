@@ -101,10 +101,20 @@ a {
 }
 
 .menu-card {
-  padding: 12px 15px;
+  height: 69px;
   margin-top: 15px;
+  padding-left: 15px;
   border-radius: 15px;
   background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+}
+
+.menu-card-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  flex: 1;
 }
 
 .menu-card-title {
@@ -112,14 +122,59 @@ a {
   padding-bottom: 3px;
 }
 
-.menu-card-text {
-  display: flex;
-  justify-content: space-between;
-  font-size: 15px;
-}
-
 .menu-card-price {
   font-weight: bold;
+  padding: 25px 20px 0px 20px;
+}
+
+.menu-card-check {
+  background-color: #99E2D0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 0px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.menu-card:hover > .menu-card-check {
+  background-color: #99E2D0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 59px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.menu-card-check--i {
+  background-color: white;
+  border-radius: 90px;
+  font-size: 17px;
+  font-weight: bold;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #99E2D0;
+  opacity: 1;
+}
+
+.menu-card:hover > .menu-card-check--i {
+  background-color: white;
+  border-radius: 90px;
+  font-size: 17px;
+  font-weight: bold;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #99E2D0;
+  opacity: 1;
 }
 
 .button-container {
