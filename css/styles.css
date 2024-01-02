@@ -247,8 +247,9 @@ a {
 }
 
 .restaurant-card__icon--base {
-  font-size: 21px;
+  font-size: 22px;
   position: absolute;
+  opacity: 1;
 }
 
 .restaurant-card__icon--grad {
@@ -270,7 +271,7 @@ a {
 }
 
 .heart-bloc:hover > .restaurant-card__icon--base {
-  transition: opacity 0s 900ms;
+  animation: heart 300ms 750ms reverse forwards;
 }
 
 @keyframes heart {

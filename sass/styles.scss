@@ -274,8 +274,9 @@ a {
 }
 
 .restaurant-card__icon--base {
-    font-size: 21px;
+    font-size: 22px;
     position: absolute;
+    opacity: 1;
 }
 
 .restaurant-card__icon--grad {
@@ -291,13 +292,13 @@ a {
     -webkit-text-fill-color: transparent;
 }
 
-.heart-bloc:hover > .restaurant-card__icon--grad {
+ .heart-bloc:hover > .restaurant-card__icon--grad {
     opacity: 1;
     animation: heart 1s;
 }
 
 .heart-bloc:hover > .restaurant-card__icon--base {
-    transition: opacity 0s 900ms;
+    animation: heart 300ms 750ms reverse forwards;
 }
 
 // Card (Keyframes)
