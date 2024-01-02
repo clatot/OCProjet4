@@ -209,12 +209,12 @@ a {
     justify-content: center;
 }
 
-.fonction-section__icon--purple {
-    color: #9356DC;
+.fonction-section__icon {
+    color: #7E7E7E;
 }
 
-.fonction-section__icon--gray {
-    color: #7E7E7E;
+.fonction-section--article:hover .fonction-section__icon {
+    color: #9356DC;
 }
 
 // Restaurant 
