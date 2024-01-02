@@ -130,7 +130,15 @@ a {
     flex-direction: column;
     font-size: 15px;
     flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
 }
+
+.menu-card-text-overflow {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
 
 .menu-card-title {
     font-size: 18px;
