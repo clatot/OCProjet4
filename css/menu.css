@@ -160,6 +160,10 @@ a {
   transition: width linear 300ms;
 }
 
+.menu-card:not(:hover) > .menu-card-check {
+  transition: width linear 300ms;
+}
+
 .menu-card-check--i {
   background-color: white;
   border-radius: 90px;
@@ -178,7 +182,7 @@ a {
   border-radius: 90px;
   font-size: 17px;
   font-weight: bold;
-  width: 20px;
+  width: 0px;
   height: 20px;
   display: flex;
   justify-content: center;
