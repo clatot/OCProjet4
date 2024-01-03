@@ -199,6 +199,12 @@ a {
   padding: 15px 50px;
   border-radius: 25px;
   background: linear-gradient(to top, #9356DC, #FF79DA);
+  transition: box-shadow 1s, filter 1s;
+}
+
+.button:hover {
+  filter: brightness(115%);
+  box-shadow: 0px 0px 10px #7E7E7E;
 }
 
 .footer-section {
