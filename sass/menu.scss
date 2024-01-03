@@ -200,53 +200,20 @@ a {
     align-items: center;
     height: 100%;
     width: 0px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    opacity: 0;
+    border-radius: 0px 15px 15px 0px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    overflow: hidden;
 }
 
 .menu-card:hover > .menu-card-check {
-    background-color: #99E2D0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
     width: 59px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    opacity: 1;
-    transition: width linear 300ms;
+    transition: width 300ms;
 }
 
 .menu-card:not(:hover) > .menu-card-check {
-    transition: width linear 300ms;
-}
-
-.menu-card-check--i {
-    background-color: white;
-    border-radius: 90px;
-    font-size: 17px;
-    font-weight: bold;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #99E2D0;
-}
-
-.menu-card:hover > .menu-card-check--i {
-    background-color: white;
-    border-radius: 90px;
-    font-size: 17px;
-    font-weight: bold;
-    width: 0px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #99E2D0;
-    transition: width linear 300ms;
+    transition: width 300ms;
 }
 
 //Button (Menu)
