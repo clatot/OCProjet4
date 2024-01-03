@@ -95,10 +95,6 @@ a {
     font-size: 28px;
 }
 
-.menu-title--i {
-    font-size: 28px;
-}
-
 .menu__section {
     padding-top: 40px;
 }
@@ -111,6 +107,54 @@ a {
 .menu-title--h3 {
     font-size: 16px;
     font-weight: lighter;
+}
+
+// Heart Block 
+
+.heart-bloc {
+    width: 22px;
+    height: 22px;
+}
+
+
+.menu-title__icon--base {
+    font-size: 22px;
+    position: absolute;
+    opacity: 1;
+}
+
+.menu-title__icon--grad {
+    font-size: 22px;
+    font-weight: 900;
+    position: absolute;
+    opacity: 0;
+}
+
+.menu-title__icon--grad::before {
+    background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+ .heart-bloc:hover > .menu-title__icon--grad {
+    opacity: 1;
+    animation: heart 1s;
+}
+
+.heart-bloc:hover > .menu-title__icon--base {
+    animation: heart 300ms 750ms reverse forwards;
+}
+
+// Title (Keyframes)
+
+@keyframes heart {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 //Menu Card
