@@ -125,15 +125,20 @@ a {
 // Header 
 
 .header-section {
+    background-color: white;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 .header__title {
-    background-color: white;
     padding-top: 14px;
     padding-bottom: 14px;
+
+    @media (min-width: 1024px) {
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
 }
 
 .header__location {

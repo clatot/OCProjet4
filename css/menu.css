@@ -41,16 +41,27 @@ a {
 
 .header-section {
   background-color: white;
-  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
+}
+@media (min-width: 1024px) {
+  .header-section {
+    padding: 26px 10px 26px 10px;
+  }
 }
 
 .header__return {
   position: absolute;
   left: 20px;
   top: 25px;
+  font-size: 17px;
+}
+@media (min-width: 1024px) {
+  .header__return {
+    top: 41px;
+  }
 }
 
 .menu-image {

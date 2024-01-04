@@ -49,16 +49,25 @@ a {
 
 .header-section {
     background-color: white;
-    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+
+    @media (min-width: 1024px) {
+        padding: 26px 10px 26px 10px;
+    }
 }
 
 .header__return {
     position: absolute;
     left: 20px;
-    top: 25px
+    top: 25px;
+    font-size: 17px;
+
+    @media (min-width: 1024px) {
+        top: 41px;
+    }
 }
 
 // Image
