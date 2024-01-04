@@ -275,9 +275,30 @@ a {
   background-color: #353535;
   color: #FFFFFF;
 }
+@media (min-width: 1024px) {
+  .footer-section {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    gap: 50px;
+    height: 84px;
+  }
+}
 
 .footer-section__logo {
   padding-bottom: 10px;
+}
+@media (min-width: 1024px) {
+  .footer-section__logo {
+    padding-bottom: 0px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-section__nav {
+    display: flex;
+    gap: 30px;
+  }
 }
 
 .footer-section__a {
