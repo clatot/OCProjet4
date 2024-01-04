@@ -82,6 +82,8 @@ a {
     background-color: #F6F6F6;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    position: relative;
+    overflow: hidden;
 }
 
 .menu-title {
@@ -102,11 +104,13 @@ a {
 .menu__section--line {
     border: #99E2D0 2px solid;
     width: 40px;
+    animation: menu 300ms backwards;
 }
 
 .menu-title--h3 {
     font-size: 16px;
     font-weight: lighter;
+    animation: menu 300ms backwards;
 }
 
 // Heart Block 
@@ -167,6 +171,7 @@ a {
     background-color: #FFFFFF;
     display: flex;
     align-items: center;
+    animation: menu 300ms backwards;
 }
 
 .menu-card-text {
@@ -214,6 +219,31 @@ a {
 
 .menu-card:not(:hover) > .menu-card-check {
     transition: width 300ms;
+}
+
+// Menu Delay 
+
+.delay1 { animation-delay: 0.1s; }
+.delay2 { animation-delay: 0.2s; }
+.delay3 { animation-delay: 0.3s; }
+.delay4 { animation-delay: 0.4s; }
+.delay5 { animation-delay: 0.5s; }
+.delay6 { animation-delay: 0.6s; }
+.delay7 { animation-delay: 0.7s; }
+.delay8 { animation-delay: 0.8s; }
+.delay9 { animation-delay: 0.9s; }
+.delay10 { animation-delay: 1.0s; }
+
+// Menu (Keyframes)
+
+@keyframes menu {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0%);
+    }
 }
 
 //Button (Menu)
