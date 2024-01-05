@@ -188,8 +188,25 @@ a {
 }
 
 .fonction-section {
-  padding: 50px 20px 60px 20px;
+  padding: 50px 0px 60px 0px;
   background-color: #FFFFFF;
+}
+@media (min-width: 1024px) {
+  .fonction-section {
+    margin: auto;
+    max-width: 1080px;
+  }
+}
+
+.fonction-section__title {
+  font-size: 24px;
+}
+
+@media (min-width: 1024px) {
+  .fonction-section__content {
+    display: flex;
+    gap: 20px;
+  }
 }
 
 .fonction-section--article {
@@ -201,6 +218,11 @@ a {
   text-align: center;
   display: flex;
   gap: 20px;
+}
+@media (min-width: 1024px) {
+  .fonction-section--article {
+    width: 33%;
+  }
 }
 
 .fonction-section--number {
@@ -227,6 +249,33 @@ a {
 .restaurant-section {
   padding: 50px 20px;
   background-color: #F6F6F6;
+}
+
+@media (min-width: 1024px) {
+  .restaurant-section__margin {
+    margin: auto;
+    max-width: 1080px;
+  }
+}
+
+.restaurant-section__title {
+  font-size: 24px;
+}
+
+@media (min-width: 1024px) {
+  .restaurant-section__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 50px;
+    column-gap: 8%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .restaurant-section__a {
+    width: 46%;
+  }
 }
 
 .restaurant-card {
