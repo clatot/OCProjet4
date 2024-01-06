@@ -84,10 +84,6 @@ a {
     box-shadow: -24px 0 #FFF, 24px 0 #9356DC;
   }
 }
-.title {
-  font-size: 24px;
-}
-
 .logo {
   font-family: "Shrikhand", serif;
 }
@@ -118,23 +114,21 @@ a {
   align-items: center;
   flex-direction: column;
   width: 100%;
+  padding-top: 14px;
+  padding-bottom: 14px;
   position: relative;
   z-index: 1;
   box-shadow: 0px -15px 30px 5px #777777;
 }
-
-.header__title {
-  padding-top: 14px;
-  padding-bottom: 14px;
-}
 @media (min-width: 1024px) {
-  .header__title {
+  .header-section__title {
+    box-shadow: 0px 0px #FFFFFF;
     padding-top: 26px;
     padding-bottom: 26px;
   }
 }
 
-.header__location {
+.header-section__location {
   display: flex;
   justify-content: center;
   align-items: baseline;
