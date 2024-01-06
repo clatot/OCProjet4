@@ -104,7 +104,7 @@ a {
 
     @media (min-width: 1024px) {
         margin: auto;
-        max-width: 1080px;
+        max-width: 70%;
     }
 }
 
@@ -123,7 +123,14 @@ a {
     font-size: 28px;
 }
 
-.menu__section {
+.menu-section_content {
+    @media (min-width: 1024px) {
+        margin: auto;
+        max-width: 65%;
+    }
+}
+
+.menu-section__cards {
     padding-top: 40px;
 }
 
