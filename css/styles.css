@@ -28,7 +28,7 @@ a {
   position: fixed;
   z-index: 100;
   opacity: 1;
-  animation: loader 0s forwards;
+  animation: loader 3s forwards;
 }
 
 .loader-content {
